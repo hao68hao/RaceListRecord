@@ -7,21 +7,74 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E6CADCB0E900527AC52B703 /* Pods_RacelistRecord.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6547AECA9556062D57BCDE68 /* Pods_RacelistRecord.framework */; };
+		DA2ED70A1D78168000DBB1E0 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2ED7091D78168000DBB1E0 /* WeatherViewController.swift */; };
+		DA2F65271D73FF7000591E45 /* GuiderPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2F65261D73FF7000591E45 /* GuiderPageViewController.swift */; };
+		DA2F65291D7425F600591E45 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2F65281D7425F600591E45 /* GameViewController.swift */; };
+		DA2F652B1D7432D600591E45 /* protocolViewContorller.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2F652A1D7432D600591E45 /* protocolViewContorller.swift */; };
+		DA352A2E1D62BBA000832430 /* RacelistRecord.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DA352A2C1D62BBA000832430 /* RacelistRecord.xcdatamodeld */; };
+		DA352A311D62BF5100832430 /* RacelistRecord+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA352A2F1D62BF5100832430 /* RacelistRecord+CoreDataProperties.swift */; };
+		DA352A321D62BF5100832430 /* RacelistRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA352A301D62BF5100832430 /* RacelistRecord.swift */; };
+		DA352A341D62F0C200832430 /* aboutTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA352A331D62F0C200832430 /* aboutTableViewController.swift */; };
+		DA352A361D62F9DF00832430 /* webViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA352A351D62F9DF00832430 /* webViewController.swift */; };
+		DA352A381D63174300832430 /* pingjiaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA352A371D63174300832430 /* pingjiaViewController.swift */; };
+		DA74F99F1D70486500E20B8C /* guiderContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA74F99E1D70486500E20B8C /* guiderContentViewController.swift */; };
 		DA993C221D61757600564FE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA993C211D61757600564FE9 /* AppDelegate.swift */; };
 		DA993C241D61757600564FE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA993C231D61757600564FE9 /* ViewController.swift */; };
-		DA993C271D61757600564FE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA993C251D61757600564FE9 /* Main.storyboard */; };
 		DA993C291D61757600564FE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA993C281D61757600564FE9 /* Assets.xcassets */; };
 		DA993C2C1D61757600564FE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA993C2A1D61757600564FE9 /* LaunchScreen.storyboard */; };
+		DA993C341D6175B900564FE9 /* raceListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA993C331D6175B900564FE9 /* raceListTableViewController.swift */; };
+		DA993C361D617E9F00564FE9 /* raceListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA993C351D617E9F00564FE9 /* raceListTableViewCell.swift */; };
+		DA993C381D61847D00564FE9 /* detailRaceListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA993C371D61847D00564FE9 /* detailRaceListTableViewController.swift */; };
+		DA993C3A1D61935F00564FE9 /* raceRecord1.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA993C391D61935F00564FE9 /* raceRecord1.swift */; };
+		DA993C3C1D61A27100564FE9 /* detailRaceListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA993C3B1D61A27100564FE9 /* detailRaceListTableViewCell.swift */; };
+		DA993C3E1D61ACE800564FE9 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA993C3D1D61ACE800564FE9 /* MapKit.framework */; };
+		DA993C421D61B3C700564FE9 /* mapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA993C411D61B3C700564FE9 /* mapViewController.swift */; };
+		DA993C441D61C41300564FE9 /* addRaceRecordTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA993C431D61C41300564FE9 /* addRaceRecordTableViewController.swift */; };
+		DA993C481D61D0D000564FE9 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = DA993C471D61D0D000564FE9 /* Podfile */; };
+		DAF8F8BD1D753BB5004D6B95 /* newFutureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF8F8BC1D753BB5004D6B95 /* newFutureViewController.swift */; };
+		DAF8F8BF1D755AF9004D6B95 /* AnswerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF8F8BE1D755AF9004D6B95 /* AnswerViewController.swift */; };
+		DAF8F8C11D7576EE004D6B95 /* resultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF8F8C01D7576EE004D6B95 /* resultViewController.swift */; };
+		DAF8F8C41D759D33004D6B95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAF8F8C21D759D33004D6B95 /* Main.storyboard */; };
+		DAFA083F1D6DA64B00894885 /* discoveryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFA083E1D6DA64B00894885 /* discoveryTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0AE62BF52D57F3722310C9B3 /* Pods-RacelistRecord.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RacelistRecord.release.xcconfig"; path = "Pods/Target Support Files/Pods-RacelistRecord/Pods-RacelistRecord.release.xcconfig"; sourceTree = "<group>"; };
+		2B1476F86581266D5F3F7289 /* Pods-RacelistRecord.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RacelistRecord.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RacelistRecord/Pods-RacelistRecord.debug.xcconfig"; sourceTree = "<group>"; };
+		6547AECA9556062D57BCDE68 /* Pods_RacelistRecord.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RacelistRecord.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA2ED7091D78168000DBB1E0 /* WeatherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		DA2F65261D73FF7000591E45 /* GuiderPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuiderPageViewController.swift; sourceTree = "<group>"; };
+		DA2F65281D7425F600591E45 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		DA2F652A1D7432D600591E45 /* protocolViewContorller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = protocolViewContorller.swift; sourceTree = "<group>"; };
+		DA352A2D1D62BBA000832430 /* RacelistRecord.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RacelistRecord.xcdatamodel; sourceTree = "<group>"; };
+		DA352A2F1D62BF5100832430 /* RacelistRecord+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RacelistRecord+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		DA352A301D62BF5100832430 /* RacelistRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RacelistRecord.swift; sourceTree = "<group>"; };
+		DA352A331D62F0C200832430 /* aboutTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = aboutTableViewController.swift; sourceTree = "<group>"; };
+		DA352A351D62F9DF00832430 /* webViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = webViewController.swift; sourceTree = "<group>"; };
+		DA352A371D63174300832430 /* pingjiaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pingjiaViewController.swift; sourceTree = "<group>"; };
+		DA74F99E1D70486500E20B8C /* guiderContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = guiderContentViewController.swift; sourceTree = "<group>"; };
 		DA993C1E1D61757600564FE9 /* RacelistRecord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RacelistRecord.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA993C211D61757600564FE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA993C231D61757600564FE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DA993C261D61757600564FE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DA993C281D61757600564FE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA993C2B1D61757600564FE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA993C2D1D61757600564FE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA993C331D6175B900564FE9 /* raceListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = raceListTableViewController.swift; sourceTree = "<group>"; };
+		DA993C351D617E9F00564FE9 /* raceListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = raceListTableViewCell.swift; sourceTree = "<group>"; };
+		DA993C371D61847D00564FE9 /* detailRaceListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = detailRaceListTableViewController.swift; sourceTree = "<group>"; };
+		DA993C391D61935F00564FE9 /* raceRecord1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = raceRecord1.swift; sourceTree = "<group>"; };
+		DA993C3B1D61A27100564FE9 /* detailRaceListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = detailRaceListTableViewCell.swift; sourceTree = "<group>"; };
+		DA993C3D1D61ACE800564FE9 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		DA993C411D61B3C700564FE9 /* mapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mapViewController.swift; sourceTree = "<group>"; };
+		DA993C431D61C41300564FE9 /* addRaceRecordTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addRaceRecordTableViewController.swift; sourceTree = "<group>"; };
+		DA993C471D61D0D000564FE9 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		DA993C491D61D17800564FE9 /* RacelistRecord-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RacelistRecord-Bridging-Header.h"; sourceTree = "<group>"; };
+		DAF8F8BC1D753BB5004D6B95 /* newFutureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = newFutureViewController.swift; sourceTree = "<group>"; };
+		DAF8F8BE1D755AF9004D6B95 /* AnswerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnswerViewController.swift; sourceTree = "<group>"; };
+		DAF8F8C01D7576EE004D6B95 /* resultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = resultViewController.swift; sourceTree = "<group>"; };
+		DAF8F8C31D759D33004D6B95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DAFA083E1D6DA64B00894885 /* discoveryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = discoveryTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +82,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA993C3E1D61ACE800564FE9 /* MapKit.framework in Frameworks */,
+				5E6CADCB0E900527AC52B703 /* Pods_RacelistRecord.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D065223BD93D891CF55F0AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6547AECA9556062D57BCDE68 /* Pods_RacelistRecord.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DA993C151D61757600564FE9 = {
 			isa = PBXGroup;
 			children = (
+				DA352A2F1D62BF5100832430 /* RacelistRecord+CoreDataProperties.swift */,
+				DA352A301D62BF5100832430 /* RacelistRecord.swift */,
+				DA993C471D61D0D000564FE9 /* Podfile */,
+				DA993C3D1D61ACE800564FE9 /* MapKit.framework */,
 				DA993C201D61757600564FE9 /* RacelistRecord */,
 				DA993C1F1D61757600564FE9 /* Products */,
+				EB84CA3412DB6C6D80B55860 /* Pods */,
+				3D065223BD93D891CF55F0AA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +123,44 @@
 		DA993C201D61757600564FE9 /* RacelistRecord */ = {
 			isa = PBXGroup;
 			children = (
+				DA352A2C1D62BBA000832430 /* RacelistRecord.xcdatamodeld */,
 				DA993C211D61757600564FE9 /* AppDelegate.swift */,
 				DA993C231D61757600564FE9 /* ViewController.swift */,
-				DA993C251D61757600564FE9 /* Main.storyboard */,
+				DA2F652A1D7432D600591E45 /* protocolViewContorller.swift */,
+				DAF8F8BC1D753BB5004D6B95 /* newFutureViewController.swift */,
+				DAF8F8BE1D755AF9004D6B95 /* AnswerViewController.swift */,
+				DAF8F8C01D7576EE004D6B95 /* resultViewController.swift */,
+				DA2F65281D7425F600591E45 /* GameViewController.swift */,
+				DA2ED7091D78168000DBB1E0 /* WeatherViewController.swift */,
+				DAF8F8C21D759D33004D6B95 /* Main.storyboard */,
+				DA2F65261D73FF7000591E45 /* GuiderPageViewController.swift */,
+				DA74F99E1D70486500E20B8C /* guiderContentViewController.swift */,
+				DAFA083E1D6DA64B00894885 /* discoveryTableViewController.swift */,
+				DA352A351D62F9DF00832430 /* webViewController.swift */,
+				DA352A371D63174300832430 /* pingjiaViewController.swift */,
+				DA352A331D62F0C200832430 /* aboutTableViewController.swift */,
+				DA993C431D61C41300564FE9 /* addRaceRecordTableViewController.swift */,
+				DA993C411D61B3C700564FE9 /* mapViewController.swift */,
+				DA993C351D617E9F00564FE9 /* raceListTableViewCell.swift */,
+				DA993C331D6175B900564FE9 /* raceListTableViewController.swift */,
+				DA993C371D61847D00564FE9 /* detailRaceListTableViewController.swift */,
+				DA993C3B1D61A27100564FE9 /* detailRaceListTableViewCell.swift */,
+				DA993C391D61935F00564FE9 /* raceRecord1.swift */,
 				DA993C281D61757600564FE9 /* Assets.xcassets */,
 				DA993C2A1D61757600564FE9 /* LaunchScreen.storyboard */,
 				DA993C2D1D61757600564FE9 /* Info.plist */,
+				DA993C491D61D17800564FE9 /* RacelistRecord-Bridging-Header.h */,
 			);
 			path = RacelistRecord;
+			sourceTree = "<group>";
+		};
+		EB84CA3412DB6C6D80B55860 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2B1476F86581266D5F3F7289 /* Pods-RacelistRecord.debug.xcconfig */,
+				0AE62BF52D57F3722310C9B3 /* Pods-RacelistRecord.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +170,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DA993C301D61757600564FE9 /* Build configuration list for PBXNativeTarget "RacelistRecord" */;
 			buildPhases = (
+				7CA4B0074843FA2321CEC8CE /* [CP] Check Pods Manifest.lock */,
 				DA993C1A1D61757600564FE9 /* Sources */,
 				DA993C1B1D61757600564FE9 /* Frameworks */,
 				DA993C1C1D61757600564FE9 /* Resources */,
+				D64BEEC20E453DD9C7A1214B /* [CP] Embed Pods Frameworks */,
+				657724512AB0B89D3A6C0B2F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +198,12 @@
 				TargetAttributes = {
 					DA993C1D1D61757600564FE9 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = Z78S7228TC;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -124,39 +232,110 @@
 			files = (
 				DA993C2C1D61757600564FE9 /* LaunchScreen.storyboard in Resources */,
 				DA993C291D61757600564FE9 /* Assets.xcassets in Resources */,
-				DA993C271D61757600564FE9 /* Main.storyboard in Resources */,
+				DA993C481D61D0D000564FE9 /* Podfile in Resources */,
+				DAF8F8C41D759D33004D6B95 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		657724512AB0B89D3A6C0B2F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RacelistRecord/Pods-RacelistRecord-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7CA4B0074843FA2321CEC8CE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D64BEEC20E453DD9C7A1214B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RacelistRecord/Pods-RacelistRecord-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DA993C1A1D61757600564FE9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAF8F8C11D7576EE004D6B95 /* resultViewController.swift in Sources */,
+				DA993C361D617E9F00564FE9 /* raceListTableViewCell.swift in Sources */,
+				DA993C3A1D61935F00564FE9 /* raceRecord1.swift in Sources */,
 				DA993C241D61757600564FE9 /* ViewController.swift in Sources */,
+				DA352A341D62F0C200832430 /* aboutTableViewController.swift in Sources */,
+				DA993C3C1D61A27100564FE9 /* detailRaceListTableViewCell.swift in Sources */,
+				DA993C341D6175B900564FE9 /* raceListTableViewController.swift in Sources */,
+				DA352A321D62BF5100832430 /* RacelistRecord.swift in Sources */,
+				DA352A381D63174300832430 /* pingjiaViewController.swift in Sources */,
+				DA2F652B1D7432D600591E45 /* protocolViewContorller.swift in Sources */,
+				DA2F65291D7425F600591E45 /* GameViewController.swift in Sources */,
+				DAF8F8BF1D755AF9004D6B95 /* AnswerViewController.swift in Sources */,
+				DA352A361D62F9DF00832430 /* webViewController.swift in Sources */,
+				DA2ED70A1D78168000DBB1E0 /* WeatherViewController.swift in Sources */,
+				DA352A2E1D62BBA000832430 /* RacelistRecord.xcdatamodeld in Sources */,
+				DA74F99F1D70486500E20B8C /* guiderContentViewController.swift in Sources */,
 				DA993C221D61757600564FE9 /* AppDelegate.swift in Sources */,
+				DA993C381D61847D00564FE9 /* detailRaceListTableViewController.swift in Sources */,
+				DA2F65271D73FF7000591E45 /* GuiderPageViewController.swift in Sources */,
+				DAFA083F1D6DA64B00894885 /* discoveryTableViewController.swift in Sources */,
+				DA993C421D61B3C700564FE9 /* mapViewController.swift in Sources */,
+				DA352A311D62BF5100832430 /* RacelistRecord+CoreDataProperties.swift in Sources */,
+				DA993C441D61C41300564FE9 /* addRaceRecordTableViewController.swift in Sources */,
+				DAF8F8BD1D753BB5004D6B95 /* newFutureViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DA993C251D61757600564FE9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DA993C261D61757600564FE9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DA993C2A1D61757600564FE9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				DA993C2B1D61757600564FE9 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		DAF8F8C21D759D33004D6B95 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAF8F8C31D759D33004D6B95 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -249,23 +428,36 @@
 		};
 		DA993C311D61757600564FE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B1476F86581266D5F3F7289 /* Pods-RacelistRecord.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = RacelistRecord/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.laudaxgg.RacelistRecord;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "RacelistRecord/RacelistRecord-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		DA993C321D61757600564FE9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AE62BF52D57F3722310C9B3 /* Pods-RacelistRecord.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = RacelistRecord/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.laudaxgg.RacelistRecord;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "RacelistRecord/RacelistRecord-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -288,8 +480,22 @@
 				DA993C321D61757600564FE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DA352A2C1D62BBA000832430 /* RacelistRecord.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DA352A2D1D62BBA000832430 /* RacelistRecord.xcdatamodel */,
+			);
+			currentVersion = DA352A2D1D62BBA000832430 /* RacelistRecord.xcdatamodel */;
+			path = RacelistRecord.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = DA993C161D61757600564FE9 /* Project object */;
 }
